@@ -95,8 +95,8 @@ namespace TripPlannerTestSuite
             searchResultsElement = TryFindWebElement(
                 driver,
                 By.Id(searchResultsElementID),
-                new Action<IWebElement>(e => testOutput.AppendLine("The Search Results element is present.")),
-                new Action<IWebElement>(e => Console.Write(testOutput.AppendLine("The Search Results element isn't present."))));
+                new Action<IWebElement>(e => testOutput.AppendLine("The Search Results element is present. The test was successful.")),
+                new Action<IWebElement>(e => Console.Write(testOutput.AppendLine("The Search Results element isn't present. The test failed."))));
         }
 
         [TearDown]
