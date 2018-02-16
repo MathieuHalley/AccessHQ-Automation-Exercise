@@ -24,7 +24,7 @@ For development within VS2012+:
    * Selenium.WebDriver
 
 To run the test from within Visual Studio
-Open the Test Explorer window (Test > Windows > Test Explorer), then right click on the 'ResultGenerationTest' and select 'Run Selected Tests'.
+Open the Test Explorer window (Test > Windows > Test Explorer), then right click on the 'TripSearchResultsTest' and select 'Run Selected Tests'.
 
 ## Authors
 
